@@ -61,46 +61,19 @@
 
 </head>
 <body>
-    <h1>Journal Entry Publisher</h1>
-	<form action="addEntry">
-		<div>Add New Journal Entry :</div><br>
-		<div>Id :</div> <input type="text" name="id"><br>
-		<div>Title :</div> <input type="text" name="title"><br>
-		<div>Category :</div> <input type="text" name="category"><br>
-
+    <h1>SignUp</h1>
+	<form action="signUpRequest">
+		<div>SignUp :</div><br>
+		<div>First name :</div> <input type="text" name="firstName"><br>
+		<div>Second name :</div> <input type="text" name="secondName"><br>
+		<div>Email :</div> <input type="text" name="email"><br>
+		<div>User name :</div> <input type="text" name="username"><br>
+		<div>Profile pic :</div> <input type="text" name="profilePicturePath"><br>
+		<div>Password :</div> <input type="password" name="password"><br>
 		<input type="submit">
 	</form><br><br><br>
 
-	<form action="getEntry">
-		<div>Enter the Id to get Specific Entry:</div><br>
-		<input type="text" name="id"><br>
 
-		<input type="submit">
-	</form><br><br><br>
-
-	<form action="deleteEntry">
-		<div>Enter the Id to Delete Entry:</div><br>
-		<input type="text" name="id"><br>
-		<input type="submit">
-	</form><br><br><br>
-
-	<form action="getEntriesByCategory">
-		<div>Enter the Category to Get Entries :</div><br>
-		<input type="text" name="category"><br>
-		<input type="submit">
-	</form><br><br><br>
-
-	<form action="getEntriesByIdGT">
-		<div>Enter the marginal Id :</div><br>
-		<input type="text" name="id"><br>
-		<input type="submit">
-	</form><br><br><br>
-
-	<form action="getEntriesByCategorySorted">
-		<div>Enter the Category to Get Sorted Entries :</div><br>
-		<input type="text" name="category"><br>
-		<input type="submit">
-	</form>
 
 </body>
 
