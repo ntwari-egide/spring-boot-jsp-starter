@@ -1,8 +1,3 @@
-/**
- * @author: ntwari egide
- * @description: exception response
- */
-
 package com.cpswork.backend.exceptions;
 
 import java.util.Date;
