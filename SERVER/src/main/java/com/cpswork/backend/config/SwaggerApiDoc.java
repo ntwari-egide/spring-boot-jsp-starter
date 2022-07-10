@@ -50,13 +50,12 @@ public class SwaggerApiDoc {
 
     private ApiInfo appInfo() {
         return new ApiInfo(
-                "ICP apis documentation",
-                "Official documentation of icps project written in Spring boot and postgresql",
+                "Apis documentation",
+                "Official documentation project written in Spring boot and MySql",
                 "1.0.0",
-                "https://github.com/hillsDevOrg/pboard-backend-v2/",
-                new Contact("ICPS Project", "https://icpportal.rw/", "icps@compassion.rw"),
+                "",null,
                 "MIT",
-                "https://github.com/veritem/springboot-template/blob/main/LICENSE",
+                "",
                 Collections.emptyList()
         );
     }
